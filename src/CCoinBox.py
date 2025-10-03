@@ -20,7 +20,7 @@ class CCoinBox:
             if self.monnaie_courante < 2:
                 self.vente_permise = False
         else:
-            print("Pas assez de monnaie")
+            print("Pas assez de monnaie :) ")
 
     def reset(self):
         self.monnaie_totale = 0
